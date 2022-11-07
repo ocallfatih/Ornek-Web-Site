@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+  <title>Üyelik Formu</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rosarivo|Goudy+Bookletter+1911&amp;subset=latin">
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+
+
+<style>.fatihocal-content .fatihocal-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.ie7 .fatihocal-post .fatihocal-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .fatihocal-post .fatihocal-layout-cell {border:none !important; padding:0 !important; }
+
+</style></head>
+<body>
+<div id="fatihocal-main">
+<header class="fatihocal-header clearfix">
+
+
+    <div class="fatihocal-shapes">
+<div class="fatihocal-fatih3" data-left="0%"></div>
+
+            </div>
+<h1 class="fatihocal-headline" data-left="100.00%">
+    <a href="index.html">fatihocal</a>
+</h1>
+<h2 class="fatihocal-slogan" data-left="110.00%">.COM</h2>
+
+</header>
+<nav class="fatihocal-nav clearfix">
+    <ul class="fatihocal-hmenu"><li><a href="index.html" >Anasayfa</a></li>
+    <li><a href="hakkimizda.html" >Hakkımızda</a></li>
+    <li><a href="calismalar.html">Çalışmalar</a></li>
+    <li><a href="referanslar.html">Referanslar</a></li>
+    <li><a href="galeri.html">Galeri</a></li>
+    <li><a href="iletisim.html">İletişim</a></li>
+     <li><a href="form.html" class="active">Üyelik Formu</a></li>a
+    </ul> 
+    </nav>
+<div class="fatihocal-sheet clearfix">
+            <div class="fatihocal-layout-wrapper clearfix">
+                <div class="fatihocal-content-layout">
+                    <div class="fatihocal-content-layout-row">
+                        <div class="fatihocal-layout-cell fatihocal-content clearfix"><article class="fatihocal-post fatihocal-article">
+                                <h2 class="fatihocal-postheader">
+                                </h2>
+                                <div class="fatihocal-postcontent fatihocal-postcontent-0 clearfix"><div class="fatihocal-content-layout">
+    <div class="fatihocal-content-layout-row">
+    <div class="fatihocal-layout-cell layout-item-0" style="width: 100%" >
+        <p><img alt="" width="320" height="213" src="images/fatih_5.jpg" style="float: left;"></p>
+
+
+
+
+
+
+
+<body>
+<script>
+  function Sifrekontrol(){
+
+            adi= document.getElementById('kullanıcıadı').value;
+            sifre= document.getElementById('şifre').value;
+            tsifre= document.getElementById('şifre2').value;
+
+            var hata= new Array();
+            var sembol = '*|,:<>[]{}`;()@&$#%!+-"/';
+
+            var sembolvar=false;
+            for (var i = 0; i < sifre.length; i++) {
+                if (sembol.indexOf(sifre.charAt(i))!=-1){
+                    sembolvar=true;
+                }
+                }
+    
+
+           
+            
+
+            if (sifre=='')
+                hata.push('Şifre alanını boş geçmeyiniz');
+            else{
+                if (sifre!=tsifre)
+                    hata.push('Şifreler birbiriyle uyuşmuyor.');
+
+                else if (sifre.length<6)
+                    hata.push('Şifre 6 karekter veya daha büyük olmalıdır.');
+
+                else if (sifre.search(/[a-z]/) < 0)
+                        hata.push("Şifre en az bir Küçük harf içermelidir.");
+
+                   else if (sifre.search(/[A-Z]/) < 0)
+                        hata.push("Şifre en az bir Büyük harf içermelidir.");
+
+                else if (sifre.search(/[0-9]/) < 0)
+                    hata.push("Şifre en az bir rakam içermelidir.");
+
+                else if (sembolvar==false)
+                    hata.push("Şifre en az bir sembol içermelidir.");
+
+                
+            }
+
+         if (hata.length > 0) {
+                    alert(hata.join("\n"));
+                    return false;
+        }
+           else alert('Şifre başarılı'); //buraya return true diyebiliriz
+
+        }
+		
+		function sonkontrol()
+	{
+	var seposta = document.getElementById("eposta").value;
+	var sad = document.getElementById("Adı").value;
+	var ssoyad = document.getElementById("Soyadı").value;
+	var sadres = document.getElementById("adres").value;
+	//var scinsiyete = document.getElementById("cinsiyete");
+	//var scinsiyetk = document.getElementById("cinsiyetk");
+	
+
+	var regex = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+.)+([.])+[a-zA-Z0-9.-]{2,4}$/;
+	
+	
+	
+	 if(sad=='')
+	alert("Ad kısmını boş geçmeyiniz");
+	else
+	1;
+	
+	
+	 if(ssoyad=="")
+	alert("Soyad kısmını boş geçmeyiniz");
+	else
+	1;
+	
+	 if (regex.test(seposta)==true)
+	 1;
+	 else
+	 alert("Hata geçersiz eposta adresi girdiniz!");
+	 
+	/*if (cinsiyete==true)
+	 1;
+	 else if(cinsiyetk==1)
+	 1;
+	 else
+	 alert("Hata geçersiz eposta adresi girdiniz!");
+	 	 
+		 if(adres=="")
+	alert("Adres kısmını boş geçmeyiniz");
+	else
+	1;
+	 */
+	
+	
+	
+
+	
+	}
+	
+	
+
+		
+	
+
+</script>
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1" action="connectiondbase.php">
+  <table width="500" height="601" border="1" align="center">
+    <tr>
+      <td colspan="2"><div align="center">ÜYELİK FORMU</div></td>
+    </tr>
+    <tr>
+      <td width="255" ><div align="right">Adı:</div></td>
+      <td width="287" ><label>
+        <input type="text" name="Adı" id="Adı" />
+      </label></td>
+    </tr>
+    <tr>
+      <td><div align="right">Soyadı:</div></td>
+      <td><label>
+        <input type="text" name="Soyadı" id="Soyadı" />
+      </label></td>
+    </tr>
+    <tr>
+      <td><div align="right">Kullanıcı Adı:</div></td>
+      <td><input type="text" name="kullanıcıadı" id="kullanıcıadı" /></td>
+    </tr>
+    <tr>
+      <td>Şifre:</td>
+      <td  ><input type="password" name="şifre" id="şifre"  /></td>
+      <td rowspan="2"><input type="button" name="button" id="button" value="Şifreyi Kontrol Et" onclick="Sifrekontrol();"></input> 
+    </tr>
+    <tr>
+      <td>Şifre(Tekrar):</td>
+      <td width="150"><input type="password" name="şifre2" id="şifre2"  /></td>
+	  
+    </tr>
+    <tr>
+      <td><div align="right">Eposta:</div></td>
+      <td><input type="text" name="eposta" id="eposta" /></td>
+    </tr>
+    <tr>
+      <td height="48"><div align="right">Cinsiyet:</div></td>
+      <td><p>
+        <label>
+          <input type="radio" name="cinsiyet" value="erkek" id="cinsiyet_0" />
+          Erkek</label>
+        <label>
+          <input type="radio" name="cinsiyet" value="bayan" id="cinsiyet_1" />
+          Bayan</label>
+<br />
+        <br />
+      </p></td>
+    </tr>
+  
+    </tr>
+    <tr>
+      <td><div align="right">Adres:</div></td>
+      <td><textarea name="adres" id="adres" cols="45" rows="5" > </textarea></td>
+    </tr>
+	<tr>
+	<td align="center"><button type="reset"/>Temizle</td>
+	<td align="center"><input type="submit" value="Bilgilerimi Kaydet" onclick="sonkontrol();"/></td>
+	</tr>
+	
+    
+  </table>
+  
+  
+  
+  
+</form>
+</body>
+</html>

@@ -1,0 +1,2583 @@
+#fatihocal-main
+{
+   background: #FAFAFA;
+   margin:0 auto;
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 150%;
+   position: relative;
+   width: 100%;
+   min-height: 100%;
+   left: 0;
+   top: 0;
+   cursor:default;
+   overflow:hidden;
+}
+table, ul.fatihocal-hmenu
+{
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
+{
+   margin: 0;
+   padding: 0;
+}
+
+
+.fatihocal-button
+{
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #EB002B;
+   background: transparent;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border:1px solid #3B3B3B;
+   padding:0 10px;
+   margin:0 auto;
+   height:23px;
+}
+
+.fatihocal-postcontent,
+.fatihocal-postheadericons,
+.fatihocal-postfootericons,
+.fatihocal-blockcontent,
+ul.fatihocal-vmenu a 
+{
+   text-align: left;
+}
+
+.fatihocal-postcontent,
+.fatihocal-postcontent li,
+.fatihocal-postcontent table,
+.fatihocal-postcontent a,
+.fatihocal-postcontent a:link,
+.fatihocal-postcontent a:visited,
+.fatihocal-postcontent a.visited,
+.fatihocal-postcontent a:hover,
+.fatihocal-postcontent a.hovered
+{
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent p
+{
+   margin: 12px 0;
+}
+
+.fatihocal-postcontent h1, .fatihocal-postcontent h1 a, .fatihocal-postcontent h1 a:link, .fatihocal-postcontent h1 a:visited, .fatihocal-postcontent h1 a:hover,
+.fatihocal-postcontent h2, .fatihocal-postcontent h2 a, .fatihocal-postcontent h2 a:link, .fatihocal-postcontent h2 a:visited, .fatihocal-postcontent h2 a:hover,
+.fatihocal-postcontent h3, .fatihocal-postcontent h3 a, .fatihocal-postcontent h3 a:link, .fatihocal-postcontent h3 a:visited, .fatihocal-postcontent h3 a:hover,
+.fatihocal-postcontent h4, .fatihocal-postcontent h4 a, .fatihocal-postcontent h4 a:link, .fatihocal-postcontent h4 a:visited, .fatihocal-postcontent h4 a:hover,
+.fatihocal-postcontent h5, .fatihocal-postcontent h5 a, .fatihocal-postcontent h5 a:link, .fatihocal-postcontent h5 a:visited, .fatihocal-postcontent h5 a:hover,
+.fatihocal-postcontent h6, .fatihocal-postcontent h6 a, .fatihocal-postcontent h6 a:link, .fatihocal-postcontent h6 a:visited, .fatihocal-postcontent h6 a:hover,
+.fatihocal-blockheader .t, .fatihocal-blockheader .t a, .fatihocal-blockheader .t a:link, .fatihocal-blockheader .t a:visited, .fatihocal-blockheader .t a:hover,
+.fatihocal-vmenublockheader .t, .fatihocal-vmenublockheader .t a, .fatihocal-vmenublockheader .t a:link, .fatihocal-vmenublockheader .t a:visited, .fatihocal-vmenublockheader .t a:hover,
+.fatihocal-headline, .fatihocal-headline a, .fatihocal-headline a:link, .fatihocal-headline a:visited, .fatihocal-headline a:hover,
+.fatihocal-slogan, .fatihocal-slogan a, .fatihocal-slogan a:link, .fatihocal-slogan a:visited, .fatihocal-slogan a:hover,
+.fatihocal-postheader, .fatihocal-postheader a, .fatihocal-postheader a:link, .fatihocal-postheader a:visited, .fatihocal-postheader a:hover
+{
+   font-size: 20px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 120%;
+}
+
+.fatihocal-postcontent a, .v-postcontent a:link
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #FA002E;
+}
+
+.fatihocal-postcontent a:visited, .fatihocal-postcontent a.visited
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #F5593D;
+}
+
+.fatihocal-postcontent  a:hover, .fatihocal-postcontent a.hover
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #FF3358;
+}
+
+.fatihocal-postcontent h1
+{
+   color: #7D7D7D;
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent h1
+{
+   margin: 10px 0 0;
+   font-size: 20px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h1 a, .fatihocal-postcontent h1 a:link, .fatihocal-postcontent h1 a:hover, .fatihocal-postcontent h1 a:visited, .fatihocal-blockcontent h1 a, .fatihocal-blockcontent h1 a:link, .fatihocal-blockcontent h1 a:hover, .fatihocal-blockcontent h1 a:visited 
+{
+   font-size: 20px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h2
+{
+   color: #999999;
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent h2
+{
+   margin: 10px 0 0;
+   font-size: 18px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h2 a, .fatihocal-postcontent h2 a:link, .fatihocal-postcontent h2 a:hover, .fatihocal-postcontent h2 a:visited, .fatihocal-blockcontent h2 a, .fatihocal-blockcontent h2 a:link, .fatihocal-blockcontent h2 a:hover, .fatihocal-blockcontent h2 a:visited 
+{
+   font-size: 18px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h3
+{
+   color: #850018;
+   margin: 10px 0 0;
+   font-size: 16px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent h3
+{
+   margin: 10px 0 0;
+   font-size: 16px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h3 a, .fatihocal-postcontent h3 a:link, .fatihocal-postcontent h3 a:hover, .fatihocal-postcontent h3 a:visited, .fatihocal-blockcontent h3 a, .fatihocal-blockcontent h3 a:link, .fatihocal-blockcontent h3 a:hover, .fatihocal-blockcontent h3 a:visited 
+{
+   font-size: 16px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h4
+{
+   color: #C2260A;
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent h4
+{
+   margin: 10px 0 0;
+   font-size: 14px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h4 a, .fatihocal-postcontent h4 a:link, .fatihocal-postcontent h4 a:hover, .fatihocal-postcontent h4 a:visited, .fatihocal-blockcontent h4 a, .fatihocal-blockcontent h4 a:link, .fatihocal-blockcontent h4 a:hover, .fatihocal-blockcontent h4 a:visited 
+{
+   font-size: 14px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h5
+{
+   color: #C2260A;
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent h5
+{
+   margin: 10px 0 0;
+   font-size: 13px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h5 a, .fatihocal-postcontent h5 a:link, .fatihocal-postcontent h5 a:hover, .fatihocal-postcontent h5 a:visited, .fatihocal-blockcontent h5 a, .fatihocal-blockcontent h5 a:link, .fatihocal-blockcontent h5 a:hover, .fatihocal-blockcontent h5 a:visited 
+{
+   font-size: 13px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h6
+{
+   color: #F7826E;
+   margin: 10px 0 0;
+   font-size: 12px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent h6
+{
+   margin: 10px 0 0;
+   font-size: 12px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-postcontent h6 a, .fatihocal-postcontent h6 a:link, .fatihocal-postcontent h6 a:hover, .fatihocal-postcontent h6 a:visited, .fatihocal-blockcontent h6 a, .fatihocal-blockcontent h6 a:link, .fatihocal-blockcontent h6 a:hover, .fatihocal-blockcontent h6 a:visited 
+{
+   font-size: 12px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+header, footer, article, nav, #fatihocal-hmenu-bg, .fatihocal-sheet, .fatihocal-hmenu a, .fatihocal-vmenu a, .fatihocal-slidenavigator > a, .fatihocal-checkbox:before, .fatihocal-radiobutton:before
+{
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+}
+
+header, footer, article, nav, #fatihocal-hmenu-bg, .fatihocal-sheet, .fatihocal-slidenavigator > a, .fatihocal-checkbox:before, .fatihocal-radiobutton:before
+{
+   display: block;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+ul
+{
+   list-style-type: none;
+}
+
+ol
+{
+   list-style-position: inside;
+}
+
+html, body
+{
+   height: 100%;
+}
+
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 900px;
+   color: #3D3D3D;
+}
+
+.clearfix:before, .clearfix:after 
+{
+   width: 100%;
+   content: " ";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.cleared {
+   font: 0/0 serif;
+   clear: both;
+}
+
+form
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+table.position
+{
+   position: relative;
+   width: 100%;
+   table-layout: fixed;
+}
+
+li h1, .fatihocal-postcontent li h1, .fatihocal-blockcontent li h1 
+{
+   margin:1px;
+} 
+li h2, .fatihocal-postcontent li h2, .fatihocal-blockcontent li h2 
+{
+   margin:1px;
+} 
+li h3, .fatihocal-postcontent li h3, .fatihocal-blockcontent li h3 
+{
+   margin:1px;
+} 
+li h4, .fatihocal-postcontent li h4, .fatihocal-blockcontent li h4 
+{
+   margin:1px;
+} 
+li h5, .fatihocal-postcontent li h5, .fatihocal-blockcontent li h5 
+{
+   margin:1px;
+} 
+li h6, .fatihocal-postcontent li h6, .fatihocal-blockcontent li h6 
+{
+   margin:1px;
+} 
+li p, .fatihocal-postcontent li p, .fatihocal-blockcontent li p 
+{
+   margin:1px;
+}
+
+
+.fatihocal-shapes
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.fatihocal-slider-inner {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+}
+
+.fatihocal-slidenavigator > a {
+   display: inline-block;
+   vertical-align: middle;
+   outline-style: none;
+   font-size: 1px;
+}
+
+.fatihocal-slidenavigator > a:last-child {
+   margin-right: 0 !important;
+}
+
+.fatihocal-fatih3
+{
+	display: block;
+	left: -622px;
+	margin-left: 0px;
+	position: absolute;
+	top: -10px;
+	width: 600px;
+	height: 346px;
+	background-image: url('images/fatih3.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.fatihocal-headline
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 89px;
+  left: 86.05%;
+  line-height: 100%;
+  margin-left: -243px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 101;
+}
+
+.fatihocal-headline, 
+.fatihocal-headline a, 
+.fatihocal-headline a:link, 
+.fatihocal-headline a:visited, 
+.fatihocal-headline a:hover
+{
+font-size: 32px;
+font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-transform: uppercase;
+text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #3D3D3D !important;
+  white-space: nowrap;
+}
+.fatihocal-slogan
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 128px;
+  left: 88.06%;
+  line-height: 100%;
+  margin-left: -124px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 102;
+  white-space: nowrap;
+}
+
+.fatihocal-slogan, 
+.fatihocal-slogan a, 
+.fatihocal-slogan a:link, 
+.fatihocal-slogan a:visited, 
+.fatihocal-slogan a:hover
+{
+font-size: 14px;
+font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+text-decoration: none;
+text-transform: uppercase;
+text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #141414 !important;
+}
+
+
+
+
+.fatihocal-footer .layout-item-0 { padding: 20px;  }
+.ie7 .fatihocal-post .fatihocal-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .fatihocal-post .fatihocal-layout-cell {border:none !important; padding:0 !important; }
+
+.fatihocal-header
+{
+   margin:0 auto;
+   position:relative;
+   height: 250px;
+   background-image: url('images/header.png');
+   background-position: center top;
+   background-repeat: no-repeat;
+}
+
+.responsive .fatihocal-header 
+{
+   background-image: url('images/header.png');
+   background-position: center center;
+}
+
+.fatihocal-header-inner{
+   position: relative;
+   width: 900px;
+   z-index: auto !important;
+   margin: 0 auto;
+}
+
+.fatihocal-header>.widget 
+{
+   position:absolute;
+   z-index:101;
+}
+
+.fatihocal-nav
+{
+   background: #292929;
+   background: linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   background: -moz-linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   background: -o-linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   background: -ms-linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   background: linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   -svg-background: linear-gradient(top, #2E2E2E 0, #303030 40%, #303030 70%, #000000 100%) no-repeat;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px dotted #636363;
+   border-bottom:2px solid #636363;
+   margin:0 auto;
+   position: relative;
+   z-index: 100000;
+   text-align: left;
+}
+
+ul.fatihocal-hmenu a, ul.fatihocal-hmenu a:link, ul.fatihocal-hmenu a:visited, ul.fatihocal-hmenu a:hover 
+{
+   outline: none;
+   position: relative;
+   z-index: 11;
+}
+
+ul.fatihocal-hmenu, ul.fatihocal-hmenu ul
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style-type: none;
+}
+
+ul.fatihocal-hmenu li
+{
+   position: relative;
+   z-index: 5;
+   display: block;
+   float: left;
+   background: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul.fatihocal-hmenu li:hover
+{
+   z-index: 10000;
+   white-space: normal;
+}
+
+ul.fatihocal-hmenu:after, ul.fatihocal-hmenu ul:after
+{
+   content: ".";
+   height: 0;
+   display: block;
+   visibility: hidden;
+   overflow: hidden;
+   clear: both;
+}
+
+ul.fatihocal-hmenu, ul.fatihocal-hmenu ul 
+{
+   min-height: 0;
+}
+
+ul.fatihocal-hmenu 
+{
+   display: inline-block;
+   vertical-align: bottom;
+   padding-left: 4px;
+   padding-right: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.fatihocal-nav:before 
+{
+   content:' ';
+}
+
+.desktop-nav.fatihocal-nav{
+   width: 900px;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.fatihocal-hmenu-extra1
+{
+   position: relative;
+   display: block;
+   float: left;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.fatihocal-hmenu-extra2
+{
+   position: relative;
+   display: block;
+   float: right;
+   width: auto;
+   height: auto;
+   background-position: center;
+}
+
+.fatihocal-hmenu
+{
+   float: left;
+}
+
+.fatihocal-menuitemcontainer
+{
+   margin:0 auto;
+}
+ul.fatihocal-hmenu>li {
+   margin-left: 1px;
+}
+ul.fatihocal-hmenu>li:first-child {
+   margin-left: 0;
+}
+ul.fatihocal-hmenu>li:last-child, ul.fatihocal-hmenu>li.last-child {
+   margin-right: 0;
+}
+
+ul.fatihocal-hmenu>li>a
+{
+   padding:0 26px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 33px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #CFCFCF;
+   line-height: 33px;
+   text-align: center;
+}
+
+.fatihocal-hmenu a, 
+.fatihocal-hmenu a:link, 
+.fatihocal-hmenu a:visited, 
+.fatihocal-hmenu a.active, 
+.fatihocal-hmenu a:hover
+{
+   font-size: 15px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   text-align: left;
+}
+
+ul.fatihocal-hmenu>li>a.active
+{
+   background: #EB002B;
+   padding:0 26px;
+   margin:0 auto;
+   color: #FCD5CF;
+   text-decoration: none;
+}
+
+ul.fatihocal-hmenu>li>a:visited, 
+ul.fatihocal-hmenu>li>a:hover, 
+ul.fatihocal-hmenu>li:hover>a {
+   text-decoration: none;
+}
+
+ul.fatihocal-hmenu>li>a:hover, .desktop ul.fatihocal-hmenu>li:hover>a
+{
+   background: #292929;
+   padding:0 26px;
+   margin:0 auto;
+}
+ul.fatihocal-hmenu>li>a:hover, 
+.desktop-nav ul.fatihocal-hmenu>li:hover>a {
+   color: #F6725A;
+   text-decoration: none;
+}
+
+ul.fatihocal-hmenu>li:before
+{
+   position:absolute;
+   display: block;
+   content:' ';
+   top:0;
+   left:  -1px;
+   width:1px;
+   height: 33px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.fatihocal-hmenu>li:first-child:before{
+   display:none;
+}
+
+ul.fatihocal-hmenu li li a
+{
+   background: #636363;
+   background: transparent;
+   padding:0 30px;
+   margin:0 auto;
+}
+ul.fatihocal-hmenu li li 
+{
+   float: none;
+   width: auto;
+   margin-top: 7px;
+   margin-bottom: 7px;
+}
+
+.desktop-nav ul.fatihocal-hmenu li li ul>li:first-child 
+{
+   margin-top: 0;
+}
+
+ul.fatihocal-hmenu li li ul>li:last-child 
+{
+   margin-bottom: 0;
+}
+
+.fatihocal-hmenu ul a
+{
+   display: block;
+   white-space: nowrap;
+   height: 33px;
+   min-width: 7em;
+   border: 0 solid transparent;
+   text-align: left;
+   line-height: 33px;
+   color: #DBDBDB;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+.fatihocal-hmenu ul a:link, 
+.fatihocal-hmenu ul a:visited, 
+.fatihocal-hmenu ul a.active, 
+.fatihocal-hmenu ul a:hover
+{
+   text-align: left;
+   line-height: 33px;
+   color: #DBDBDB;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   margin:0;
+}
+
+ul.fatihocal-hmenu li li:after
+{
+   display: block;
+   position: absolute;
+   content: ' ';
+   height: 0;
+   top: -4px;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   border-bottom: 1px solid #9C9C9C;
+}
+
+.desktop-nav ul.fatihocal-hmenu li li:first-child:before, 
+.desktop-nav ul.fatihocal-hmenu li li:first-child:after 
+{
+   display: none;
+} 
+
+ul.fatihocal-hmenu ul li a:hover, .desktop ul.fatihocal-hmenu ul li:hover>a
+{
+   background: #3B3B3B;
+   background: rgba(59, 59, 59, 0.8);
+   margin:0 auto;
+}
+.fatihocal-hmenu ul a:hover
+{
+   text-decoration: none;
+}
+
+.fatihocal-hmenu ul li a:hover
+{
+   color: #F7826E;
+}
+
+.desktop-nav .fatihocal-hmenu ul li:hover>a
+{
+   color: #F7826E;
+}
+
+ul.fatihocal-hmenu ul:before
+{
+   background: #787878;
+   border:1px solid rgba(120, 120, 120, 0.1);
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   z-index: 1;
+}
+.desktop-nav ul.fatihocal-hmenu li:hover>ul {
+   visibility: visible;
+   top: 100%;
+}
+.desktop-nav ul.fatihocal-hmenu li li:hover>ul {
+   top: 0;
+   left: 100%;
+}
+
+ul.fatihocal-hmenu ul
+{
+   visibility: hidden;
+   position: absolute;
+   z-index: 10;
+   left: 0;
+   top: 0;
+   background-image: url('images/spacer.gif');
+}
+
+.desktop-nav ul.fatihocal-hmenu>li>ul
+{
+   padding: 16px 36px 36px 36px;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.fatihocal-hmenu ul ul
+{
+   padding: 36px 36px 36px 16px;
+   margin: -36px 0 0 -5px;
+}
+
+.desktop-nav ul.fatihocal-hmenu ul.fatihocal-hmenu-left-to-right 
+{
+   right: auto;
+   left: 0;
+   margin: -10px 0 0 -30px;
+}
+
+.desktop-nav ul.fatihocal-hmenu ul.fatihocal-hmenu-right-to-left 
+{
+   left: auto;
+   right: 0;
+   margin: -10px -30px 0 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu li li:hover>ul.fatihocal-hmenu-left-to-right {
+   right: auto;
+   left: 100%;
+}
+.desktop-nav ul.fatihocal-hmenu li li:hover>ul.fatihocal-hmenu-right-to-left {
+   left: auto;
+   right: 100%;
+}
+
+.desktop-nav ul.fatihocal-hmenu ul ul.fatihocal-hmenu-left-to-right
+{
+   right: auto;
+   left: 0;
+   padding: 36px 36px 36px 16px;
+   margin: -36px 0 0 -5px;
+}
+
+.desktop-nav ul.fatihocal-hmenu ul ul.fatihocal-hmenu-right-to-left
+{
+   left: auto;
+   right: 0;
+   padding: 36px 16px 36px 36px;
+   margin: -36px -5px 0 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu li ul>li:first-child {
+   margin-top: 0;
+}
+.desktop-nav ul.fatihocal-hmenu li ul>li:last-child {
+   margin-bottom: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu ul ul:before
+{
+   border-radius: 0;
+   top: 30px;
+   bottom: 30px;
+   right: 30px;
+   left: 10px;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li>ul:before
+{
+   top: 10px;
+   right: 30px;
+   bottom: 30px;
+   left: 30px;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li>ul.fatihocal-hmenu-left-to-right:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop-nav ul.fatihocal-hmenu>li>ul.fatihocal-hmenu-right-to-left:before {
+   right: 30px;
+   left: 30px;
+}
+.desktop-nav ul.fatihocal-hmenu ul ul.fatihocal-hmenu-left-to-right:before {
+   right: 30px;
+   left: 10px;
+}
+.desktop-nav ul.fatihocal-hmenu ul ul.fatihocal-hmenu-right-to-left:before {
+   right: 10px;
+   left: 30px;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext>a
+{
+   white-space: nowrap;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext>a:hover,
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>a,
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>a.active  
+{
+   background: none;
+   /* default padding + border size */
+  padding: 0 26px 0 26px;
+   /* margin for shadow */
+  margin: -0 -0 0 -0;
+   overflow: hidden;
+   position: relative;
+   border: none;
+   border-radius: 0;
+   box-shadow: none;
+   color: #E8E8E8;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext>a:hover:before,
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>a:before,
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>a.active:before  
+{
+   position: absolute;
+   content: ' ';
+   
+  top: 0;
+   right: 0;
+   left: 0;
+  
+  bottom: -1px;
+   background-color: #787878;
+   border: 1px Solid rgba(120, 120, 120, 0.1);
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+   z-index: -1;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>ul 
+{
+   padding-top: 5px;
+   
+  margin-top: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>ul:before 
+{
+   
+  top: -1px;
+   clip: rect(6px, auto, auto, auto);
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+}
+
+ul.fatihocal-hmenu>li.ext>.ext-r,
+ul.fatihocal-hmenu>li.ext>.ext-l,
+ul.fatihocal-hmenu>li.ext>.ext-m,
+ul.fatihocal-hmenu>li.ext>.ext-off
+{
+   display: none;
+   z-index: 12;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext>ul 
+{
+   z-index: 13;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-r:hover>.ext-r,
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l:hover>.ext-l
+{
+   position: absolute;
+   display: block;
+   overflow: hidden;
+ 
+  height: 6px;
+   top: 100%;
+   padding-top: 1px;
+   margin-top: -1px;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-r:before,
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-l:before
+{
+   position: absolute;
+   content: ' ';
+   top: 0;
+   
+  bottom: -1px;
+   background-color: #787878;
+   border: 1px Solid rgba(120, 120, 120, 0.1);
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-r:hover>.ext-r
+{
+   left: 100%;
+   right: auto;
+   padding-left: 0;
+   margin-left: 0;
+   padding-right: 1px;
+   margin-right: -1px;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-r:hover>.ext-r:before
+{
+   right: 0;
+   left: -1px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l:hover>.ext-l
+{
+   right: 100%;
+   left: auto;
+   padding-right: 0;
+   margin-right: 0;
+   padding-left: 1px;
+   margin-left: -1px;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l:hover>.ext-l:before
+{
+   right: -1px;
+   left: 0;
+   border-top-right-radius: 0;
+   border-top-left-radius: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-m, 
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-off 
+{
+   position: absolute;
+   display: block;
+   overflow: hidden;
+   height: 5px;
+   top: 100%;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-r:hover>.ext-m 
+{
+   
+  left: -0;
+   right: 0;
+   
+  padding-right: 0;
+   padding-left: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-off 
+{
+   
+  left: -0;
+   right: -0;
+   
+  padding-left: 0;
+   padding-right: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l:hover>.ext-m
+{
+   
+  right: -0;
+   left: 0;
+ 
+  padding-left: 0;
+   padding-right: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l.ext-r:hover>.ext-m
+{
+   
+  right: -0;
+   left: -0;
+ 
+  padding-left: 0;
+   padding-right: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-m:before, 
+.desktop-nav ul.fatihocal-hmenu>li.ext:hover>.ext-off:before 
+{
+   position: absolute;
+   content: ' ';
+   top: -1px;
+   bottom: -1px;
+   
+  background-color: #787878;
+   border: 1px Solid rgba(120, 120, 120, 0.1);
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-r:hover>.ext-m:before
+{
+   right: -1px;
+   left: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l:hover>.ext-m:before
+{
+   left: -1px;
+   right: 0;
+}
+
+.desktop-nav ul.fatihocal-hmenu>li.ext.ext-l.ext-r:hover>.ext-m:before
+{
+   left: -1px;
+   right: -1px
+;
+}
+
+.fatihocal-sheet
+{
+   background: #000000;
+   background: transparent;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   margin:5px auto 0;
+   position:relative;
+   cursor:auto;
+   width: 900px;
+   z-index: auto !important;
+}
+
+.fatihocal-layout-wrapper
+{
+   position: relative;
+   margin: 0 auto 0 auto;
+   z-index: auto !important;
+}
+
+.fatihocal-content-layout
+{
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+}
+
+.fatihocal-content-layout-row 
+{
+   display: table-row;
+}
+
+.fatihocal-layout-cell
+{
+   display: table-cell;
+   vertical-align: top;
+}
+
+
+.fatihocal-postcontent .fatihocal-content-layout
+{
+   border-collapse: collapse;
+}
+
+.fatihocal-breadcrumbs
+{
+   margin:0 auto;
+}
+
+a.fatihocal-button,
+a.fatihocal-button:link,
+a:link.fatihocal-button:link,
+body a.fatihocal-button:link,
+a.fatihocal-button:visited,
+body a.fatihocal-button:visited,
+input.fatihocal-button,
+button.fatihocal-button
+{
+   text-decoration: none;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   position:relative;
+   display: inline-block;
+   vertical-align: middle;
+   white-space: nowrap;
+   text-align: center;
+   color: #3D3D3D;
+   margin: 0 5px 0 0 !important;
+   overflow: visible;
+   cursor: pointer;
+   text-indent: 0;
+   line-height: 23px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.fatihocal-button img
+{
+   margin: 0;
+   vertical-align: middle;
+}
+
+.firefox2 .fatihocal-button
+{
+   display: block;
+   float: left;
+}
+
+input, select, textarea, a.fatihocal-search-button span
+{
+   vertical-align: middle;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.fatihocal-block select 
+{
+   width:96%;
+}
+
+input.fatihocal-button
+{
+   float: none !important;
+}
+
+.fatihocal-button.active, .fatihocal-button.active:hover
+{
+   background: #787878;
+   background: linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   background: linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(122, 122, 122, 0.5) 0, rgba(128, 128, 128, 0.5) 40%, rgba(128, 128, 128, 0.5) 70%, rgba(82, 82, 82, 0.5) 100%) no-repeat;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border:1px solid transparent;
+   padding:0 10px;
+   margin:0 auto;
+}
+.fatihocal-button.active, .fatihocal-button.active:hover {
+   color: #242424 !important;
+}
+
+.fatihocal-button.hover, .fatihocal-button:hover
+{
+   background: #3B3B3B;
+   background: linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   background: linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(61, 61, 61, 0.5) 0, rgba(66, 66, 66, 0.5) 40%, rgba(66, 66, 66, 0.5) 70%, rgba(18, 18, 18, 0.5) 100%) no-repeat;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border:1px solid transparent;
+   padding:0 10px;
+   margin:0 auto;
+}
+.fatihocal-button.hover, .fatihocal-button:hover {
+   color: #000000 !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   background: #F2F2F2;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #636363;
+   margin:0 auto;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea
+{
+   width: 100%;
+   padding: 4px 0;
+   color: #000000 !important;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-shadow: none;
+}
+input.fatihocal-error, textarea.fatihocal-error
+{
+   background: #000000;
+   border:1px solid #F5250A;
+   margin:0 auto;
+}
+input.fatihocal-error, textarea.fatihocal-error {
+   color: #808080 !important;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.fatihocal-search input[type="text"]
+{
+   background: #F2F2F2;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #636363;
+   margin:0 auto;
+   width: 100%;
+   padding: 4px 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: #000000 !important;
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+form.fatihocal-search 
+{
+   background-image: none;
+   border: 0;
+   display:block;
+   position:relative;
+   top:0;
+   padding:0;
+   margin:5px;
+   left:0;
+   line-height: 0;
+}
+
+form.fatihocal-search input, a.fatihocal-search-button
+{
+   top:0;
+   right:0;
+}
+
+form.fatihocal-search>input, a.fatihocal-search-button{
+   bottom:0;
+   left:0;
+   vertical-align: middle;
+}
+
+form.fatihocal-search input[type="submit"], input.fatihocal-search-button, a.fatihocal-search-button
+{
+   margin:0 auto;
+}
+form.fatihocal-search input[type="submit"], input.fatihocal-search-button, a.fatihocal-search-button {
+	position: absolute;
+	left: 551px;
+	display: block;
+	border: none;
+	background: url('images/searchicon.png') center center no-repeat;
+	width: 24px;
+	height: 100%;
+	padding: 0;
+	color: #D9D9D9 !important;
+	cursor: pointer;
+	top: 1256px;
+}
+
+a.fatihocal-search-button span.fatihocal-search-button-text {
+   display: none;
+}
+
+label.fatihocal-checkbox:before
+{
+   background: #3B3B3B;
+   background: linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   background: -moz-linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   background: -o-linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   background: -ms-linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   background: linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   -svg-background: linear-gradient(top, #454545 0, #363636 40%, #333333 50%, #363636 60%, #454545 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #636363;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+}
+label.fatihocal-checkbox
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 16px;
+   display: inline-block;
+   color: #000000 !important;
+}
+
+.fatihocal-checkbox>input[type="checkbox"]
+{
+   margin: 0 5px 0 0;
+}
+
+label.fatihocal-checkbox.active:before
+{
+   background: #FF244C;
+   background: linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -o-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #EB002B;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.fatihocal-checkbox.hovered:before
+{
+   background: #636363;
+   background: linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -moz-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -o-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -ms-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   -svg-background: linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #636363;
+   margin:0 auto;
+   width:16px;
+   height:16px;
+   display: inline-block;
+}
+
+label.fatihocal-radiobutton:before
+{
+   background: #000000;
+   background: linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   background: -moz-linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   background: -o-linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   background: -ms-linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   background: linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   -svg-background: linear-gradient(top, #52002E 0, #2E001A 40%, #290017 50%, #2E001A 60%, #52002E 100%) no-repeat;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #636363;
+   margin:0 auto;
+   width:20px;
+   height:20px;
+}
+label.fatihocal-radiobutton
+{
+   cursor: pointer;
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 20px;
+   display: inline-block;
+   color: #000000 !important;
+}
+
+.fatihocal-radiobutton>input[type="radio"]
+{
+   vertical-align: baseline;
+   margin: 0 5px 0 0;
+}
+
+label.fatihocal-radiobutton.active:before
+{
+   background: #FF244C;
+   background: linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -o-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   background: linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FF385D 0, #FF1A44 40%, #FF1A44 50%, #FF1A44 60%, #FF385D 100%) no-repeat;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #EB002B;
+   margin:0 auto;
+   width:20px;
+   height:20px;
+   display: inline-block;
+}
+
+label.fatihocal-radiobutton.hovered:before
+{
+   background: #636363;
+   background: linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -moz-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -o-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: -ms-linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   background: linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   -svg-background: linear-gradient(top, #6E6E6E 0, #616161 40%, #5E5E5E 50%, #616161 60%, #6E6E6E 100%) no-repeat;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
+   border:1px solid #636363;
+   margin:0 auto;
+   width:20px;
+   height:20px;
+   display: inline-block;
+}
+
+.fatihocal-comments
+{
+   border-top:1px solid #636363;
+   margin:0 auto;
+   margin-top: 25px;
+}
+
+.fatihocal-comments h2
+{
+   color: #3D3D3D;
+}
+
+.fatihocal-comment
+{
+   background: #292929;
+   background: transparent;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   padding:10px;
+   margin:0 auto;
+   margin-top: 6px;
+}
+.fatihocal-comment-avatar 
+{
+   width:80px;
+   height:80px;
+   padding:2px;
+   background:#fff;
+   border:none;
+   float:right;
+}
+
+.fatihocal-comment-avatar>img
+{
+   margin:0 !important;
+   border:none !important;
+}
+
+.fatihocal-comment-content
+{
+   padding:10px 0;
+   color: #3D3D3D;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-comment:first-child
+{
+   margin-top: 0;
+}
+
+.fatihocal-comment-inner
+{
+   margin-left: 0;
+   margin-right: 90px;
+}
+
+.fatihocal-comment-header
+{
+   color: #3D3D3D;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-comment-header a, 
+.fatihocal-comment-header a:link, 
+.fatihocal-comment-header a:visited,
+.fatihocal-comment-header a.visited,
+.fatihocal-comment-header a:hover,
+.fatihocal-comment-header a.hovered
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-comment-header a, .fatihocal-comment-header a:link
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #7A0016;
+}
+
+.fatihocal-comment-header a:visited, .fatihocal-comment-header a.visited
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #9B1E08;
+}
+
+.fatihocal-comment-header a:hover,  .fatihocal-comment-header a.hovered
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #A3001E;
+}
+
+.fatihocal-comment-content a, 
+.fatihocal-comment-content a:link, 
+.fatihocal-comment-content a:visited,
+.fatihocal-comment-content a.visited,
+.fatihocal-comment-content a:hover,
+.fatihocal-comment-content a.hovered
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-comment-content a, .fatihocal-comment-content a:link
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #000000;
+}
+
+.fatihocal-comment-content a:visited, .fatihocal-comment-content a.visited
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #9B1E08;
+}
+
+.fatihocal-comment-content a:hover,  .fatihocal-comment-content a.hovered
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #A3001E;
+}
+
+.fatihocal-pager
+{
+   background: #3B3B3B;
+   background: transparent;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   padding:7px;
+   margin:3px;
+}
+
+.fatihocal-pager>*:last-child,
+.fatihocal-pager>*:last-child:hover
+{
+   margin-right:0;
+}
+
+.fatihocal-pager>span {
+   cursor:default;
+}
+
+.fatihocal-pager>*
+{
+   background: #636363;
+   background: transparent;
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   border:1px dotted transparent;
+   padding:5px;
+   margin:0 9px 0 auto;
+   position:relative;
+   display:inline-block;
+   margin-left: 0;
+}
+
+.fatihocal-pager a:link,
+.fatihocal-pager a:visited
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #666666
+;
+}
+
+.fatihocal-pager .active
+{
+   background: #787878;
+   background: transparent;
+   border:1px dotted transparent;
+   padding:5px;
+   margin:0 9px 0 auto;
+   color: #52000F
+;
+}
+
+.fatihocal-pager .more
+{
+   background: #A8A8A8;
+   background: transparent;
+   border:1px dotted transparent;
+   margin:0 9px 0 auto;
+}
+.fatihocal-pager a.more:link,
+.fatihocal-pager a.more:visited
+{
+   color: #52000F
+;
+}
+.fatihocal-pager a:hover
+{
+   background: #8C8C8C;
+   border:1px dotted #A8A8A8;
+   padding:5px;
+   margin:0 9px 0 auto;
+}
+.fatihocal-pager  a:hover,
+.fatihocal-pager  a.more:hover
+{
+   color: #0F0003
+;
+}
+.fatihocal-pager>*:after
+{
+   margin:0 0 0 auto;
+   display:inline-block;
+   position:absolute;
+   content: ' ';
+   top:0;
+   width:0;
+   height:100%;
+   border-right:1px dashed #787878;
+   right: -6px;
+   text-decoration:none;
+}
+
+.fatihocal-pager>*:last-child:after{
+   display:none;
+}
+
+.fatihocal-commentsform
+{
+   background: #3B3B3B;
+   background: transparent;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   padding:5px;
+   margin:0 auto;
+   margin-top:25px;
+   color: #3D3D3D;
+}
+
+.fatihocal-commentsform h2{
+   padding-bottom:10px;
+   margin: 0;
+   color: #3D3D3D;
+}
+
+.fatihocal-commentsform label {
+   display: inline-block;
+   line-height: 25px;
+}
+
+.fatihocal-commentsform input:not([type=submit]), .fatihocal-commentsform textarea {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   width:100%;
+   max-width:100%;
+}
+
+.fatihocal-commentsform .form-submit
+{
+   margin-top: 25px;
+}
+.fatihocal-block
+{
+   border:1px dotted transparent;
+   margin:12px;
+}
+div.fatihocal-block img
+{
+   border: 1px dotted #787878;
+   margin: 3px;
+}
+
+.fatihocal-blockheader
+{
+   border:1px solid transparent;
+   padding:12px 7px;
+   margin:0 auto;
+}
+.fatihocal-blockheader .t,
+.fatihocal-blockheader .t a,
+.fatihocal-blockheader .t a:link,
+.fatihocal-blockheader .t a:visited, 
+.fatihocal-blockheader .t a:hover
+{
+   color: #000000;
+   font-size: 14px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   margin: 0 10px;
+}
+
+.fatihocal-blockcontent
+{
+   border:1px dotted transparent;
+   padding:7px;
+   margin:0 auto;
+   color: #000000;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+.fatihocal-blockcontent table,
+.fatihocal-blockcontent li, 
+.fatihocal-blockcontent a,
+.fatihocal-blockcontent a:link,
+.fatihocal-blockcontent a:visited,
+.fatihocal-blockcontent a:hover
+{
+   color: #000000;
+   font-size: 12px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent p
+{
+   margin: 0 5px;
+}
+
+.fatihocal-blockcontent a, .fatihocal-blockcontent a:link
+{
+   color: #FF3358;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-blockcontent a:visited, .fatihocal-blockcontent a.visited
+{
+   color: #F5593D;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.fatihocal-blockcontent a:hover, .fatihocal-blockcontent a.hover
+{
+   color: #FF3358;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+.fatihocal-block ul>li:before
+{
+   content:url('images/blockbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -11px;
+}
+.opera .fatihocal-block ul>li:before
+{
+   
+    bottom: 0;
+}
+
+.fatihocal-block li
+{
+   font-size: 13px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 150%;
+   color: #000000;
+   margin: 5px 0 0 10px;
+}
+
+.fatihocal-block ul>li, .fatihocal-block ol
+{
+   padding: 0;
+}
+
+.fatihocal-block ul>li
+{
+   padding-left: 11px;
+}
+
+.fatihocal-post
+{
+   background: #3B3B3B;
+   background: transparent;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   padding:5px;
+   margin:12px;
+}
+a img
+{
+   border: 0;
+}
+
+.fatihocal-article img, img.fatihocal-article, .fatihocal-block img, .fatihocal-footer img
+{
+   margin: 5px 5px 5px 5px;
+}
+
+.fatihocal-metadata-icons img
+{
+   border: none;
+   vertical-align: middle;
+   margin: 2px;
+}
+
+.fatihocal-article table, table.fatihocal-article
+{
+   border-collapse: collapse;
+   margin: 1px;
+}
+
+.fatihocal-post .fatihocal-content-layout-br
+{
+   height: 0;
+}
+
+.fatihocal-article th, .fatihocal-article td
+{
+   padding: 2px;
+   border: solid 1px #A8A8A8;
+   vertical-align: top;
+   text-align: left;
+}
+
+.fatihocal-article th
+{
+   text-align: center;
+   vertical-align: middle;
+   padding: 7px;
+}
+
+pre
+{
+   overflow: auto;
+   padding: 0.1em;
+}
+
+.preview-cms-logo
+{
+   border: 0;
+   margin: 1em 1em 0 0;
+   float: left;
+}
+
+.image-caption-wrapper
+{
+   padding: 5px 5px 5px 5px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper img
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper div.fatihocal-collage
+{
+   margin: 0 !important;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.image-caption-wrapper p
+{
+   font-size: 80%;
+   text-align: right;
+   margin: 0;
+}
+
+.fatihocal-postheader
+{
+   color: #3D3D3D;
+   margin: 3px 0;
+   font-size: 16px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.fatihocal-postheader a, 
+.fatihocal-postheader a:link, 
+.fatihocal-postheader a:visited,
+.fatihocal-postheader a.visited,
+.fatihocal-postheader a:hover,
+.fatihocal-postheader a.hovered
+{
+   font-size: 16px;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+.fatihocal-postheader a, .fatihocal-postheader a:link
+{
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   text-align: left;
+   color: #7A0016;
+}
+
+.fatihocal-postheader a:visited, .fatihocal-postheader a.visited
+{
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+   color: #000000;
+}
+
+.fatihocal-postheader a:hover,  .fatihocal-postheader a.hovered
+{
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+   color: #7E1907;
+}
+
+.fatihocal-postcontent ul>li:before,  .fatihocal-post ul>li:before,  .fatihocal-textblock ul>li:before
+{
+   content:url('images/postbullets.png');
+   margin-right:6px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .fatihocal-postcontent ul>li:before, .opera   .fatihocal-post ul>li:before, .opera   .fatihocal-textblock ul>li:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.fatihocal-postcontent li, .fatihocal-post li, .fatihocal-textblock li
+{
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 150%;
+   color: #141414;
+   margin: 5px 0 0 7px;
+}
+
+.fatihocal-postcontent ul>li, .fatihocal-post ul>li, .fatihocal-textblock ul>li, .fatihocal-postcontent ol, .fatihocal-post ol, .fatihocal-textblock ol
+{
+   padding: 0;
+}
+
+.fatihocal-postcontent ul>li, .fatihocal-post ul>li, .fatihocal-textblock ul>li
+{
+   padding-left: 16px;
+}
+
+.fatihocal-postcontent ul>li:before,  .fatihocal-post ul>li:before,  .fatihocal-textblock ul>li:before
+{
+   margin-left: -16px;
+}
+
+.fatihocal-postcontent ol, .fatihocal-post ol, .fatihocal-textblock ol, .fatihocal-postcontent ul, .fatihocal-post ul, .fatihocal-textblock ul
+{
+   margin: 1em 0 1em 7px;
+}
+
+.fatihocal-postcontent li ol, .fatihocal-post li ol, .fatihocal-textblock li ol, .fatihocal-postcontent li ul, .fatihocal-post li ul, .fatihocal-textblock li ul
+{
+   margin: 0.5em 0 0.5em 7px;
+}
+
+.fatihocal-postcontent li, .fatihocal-post li, .fatihocal-textblock li
+{
+   margin: 5px 0 0 0;
+}
+
+.fatihocal-postcontent ol>li, .fatihocal-post ol>li, .fatihocal-textblock ol>li
+{
+ 
+  overflow: visible;
+}
+
+.fatihocal-postcontent ul>li, .fatihocal-post ul>li, .fatihocal-textblock ul>li
+{
+ 
+  overflow-x: visible;
+   overflow-y: hidden;
+}
+
+blockquote
+{
+   background: #787878 url('images/postquote.png') no-repeat scroll;
+   border:1px solid #787878;
+   padding:15px 15px 15px 43px;
+   margin:0 0 0 10px;
+   color: #DBDBDB;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+  
+  overflow: auto;
+   clear:both;
+}
+blockquote a, .fatihocal-postcontent blockquote a, .fatihocal-blockcontent blockquote a, .fatihocal-footer blockquote a,
+blockquote a:link, .fatihocal-postcontent blockquote a:link, .fatihocal-blockcontent blockquote a:link, .fatihocal-footer blockquote a:link,
+blockquote a:visited, .fatihocal-postcontent blockquote a:visited, .fatihocal-blockcontent blockquote a:visited, .fatihocal-footer blockquote a:visited,
+blockquote a:hover, .fatihocal-postcontent blockquote a:hover, .fatihocal-blockcontent blockquote a:hover, .fatihocal-footer blockquote a:hover
+{
+   color: #DBDBDB;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: italic;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.fatihocal-postcontent blockquote p,
+.fatihocal-blockcontent blockquote p,
+.fatihocal-footer blockquote p
+{
+   margin: 0;
+}
+
+.fatihocal-footer
+{
+   background: #292929;
+   background: transparent;
+   border-top:1px solid #636363;
+   margin:20px auto 0;
+   position: relative;
+   color: #141414;
+   font-size: 11px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
+   padding: 0;
+}
+
+.fatihocal-footer a,
+.fatihocal-footer a:link,
+.fatihocal-footer a:visited,
+.fatihocal-footer a:hover,
+.fatihocal-footer td, 
+.fatihocal-footer th,
+.fatihocal-footer caption
+{
+   color: #141414;
+   font-size: 11px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer p 
+{
+   padding:0;
+   text-align: center;
+}
+
+.fatihocal-footer a,
+.fatihocal-footer a:link
+{
+   color: #FA002E;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer a:visited
+{
+   color: #ED2E0C;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: underline;
+}
+
+.fatihocal-footer a:hover
+{
+   color: #7E1907;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-decoration: none;
+}
+
+.fatihocal-footer h1
+{
+   color: #636363;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer h2
+{
+   color: #787878;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer h3
+{
+   color: #700015;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer h4
+{
+   color: #FAA899;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer h5
+{
+   color: #FAA899;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer h6
+{
+   color: #FAA899;
+   font-family: Rosarivo, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.fatihocal-footer img
+{
+   border: none;
+   margin: 5px;
+}
+
+.fatihocal-footer-inner
+{
+   margin: 0 auto;
+   width:900px;
+   padding:15px;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.fatihocal-rss-tag-icon
+{
+   background:  url('images/footerrssicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:16px;
+   min-width:16px;
+   display: inline-block;
+   text-indent: 19px;
+   background-position: left center;
+}
+
+.fatihocal-rss-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.fatihocal-facebook-tag-icon
+{
+   background:  url('images/footerfacebookicon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+}
+
+.fatihocal-facebook-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.fatihocal-twitter-tag-icon
+{
+   background:  url('images/footertwittericon.png') no-repeat scroll;
+   margin:0 auto;
+   min-height:32px;
+   min-width:32px;
+   display: inline-block;
+   text-indent: 35px;
+   background-position: left center;
+}
+
+.fatihocal-twitter-tag-icon:empty
+{
+   vertical-align: middle;
+}
+
+.fatihocal-footer ul>li:before
+{
+   content:url('images/footerbullets.png');
+   margin-right:6px;
+   bottom: 1px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+   margin-left: -12px;
+}
+.opera .fatihocal-footer ul>li:before
+{
+
+    bottom: 0;
+}
+
+.fatihocal-footer li
+{
+   font-size: 11px;
+   font-family: 'Goudy Bookletter 1911', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #000000;
+}
+
+.fatihocal-footer ul>li, .fatihocal-footer ol
+{
+   padding: 0;
+}
+
+.fatihocal-footer ul>li
+{
+   padding-left: 12px;
+}
+
+.fatihocal-page-footer, 
+.fatihocal-page-footer a,
+.fatihocal-page-footer a:link,
+.fatihocal-page-footer a:visited,
+.fatihocal-page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #737373;
+}
+
+.fatihocal-page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 1em;
+   text-align: center !important;
+   text-decoration: none;
+   color: #A52009;
+}
+
+.fatihocal-lightbox-wrapper 
+{
+   background-color: rgba(0, 0, 0, .8);
+   bottom: 0;
+   left: 0;
+   padding: 0 100px;
+   position: fixed;
+   right: 0;
+   text-align: center;
+   top: 0;
+   z-index: 1000000;
+}
+
+.fatihocal-lightbox,
+.fatihocal-lightbox-wrapper .fatihocal-lightbox-image
+{
+   cursor: pointer;
+}
+
+.fatihocal-lightbox-wrapper .fatihocal-lightbox-image
+{
+   border: 6px solid #fff;
+   border-radius: 3px;
+   display: none;
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+.fatihocal-lightbox-wrapper .fatihocal-lightbox-image.active
+{
+   display: inline-block;
+}
+
+.fatihocal-lightbox-wrapper .lightbox-error
+{
+   background: #fff;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   height: 80px;
+   opacity: .95;
+   padding: 20px;
+   position: fixed;
+   width: 300px;
+   z-index: 100;
+}
+
+.fatihocal-lightbox-wrapper .loading
+{
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   border: 1px solid #b4b4b4;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px #333;
+   height: 32px;
+   opacity: .5;
+   padding: 10px;
+   position: fixed;
+   width: 32px;
+   z-index: 10100;
+}
+
+.fatihocal-lightbox-wrapper .arrow
+{
+   cursor: pointer;
+   height: 100px;
+   opacity: .5;
+   filter: alpha(opacity=50);
+   position: fixed;
+   width: 82px;
+   z-index: 10003;
+}
+
+.fatihocal-lightbox-wrapper .arrow.left
+{
+   left: 9px;
+}
+
+.fatihocal-lightbox-wrapper .arrow.right
+{
+   right: 9px;
+}
+
+.fatihocal-lightbox-wrapper .arrow:hover
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.fatihocal-lightbox-wrapper .arrow.disabled 
+{
+   display: none;
+}
+
+.fatihocal-lightbox-wrapper .arrow-t, 
+.fatihocal-lightbox-wrapper .arrow-b
+{
+   background-color: #fff;
+   border-radius: 3px;
+   height: 6px;
+   left: 26px;
+   position: relative;
+   width: 30px;
+}
+
+.fatihocal-lightbox-wrapper .arrow-t
+{
+   top: 38px;
+}
+
+.fatihocal-lightbox-wrapper .arrow-b
+{
+   top: 50px;
+}
+
+.fatihocal-lightbox-wrapper .close
+{
+   cursor: pointer;
+   height: 22px;
+   opacity: .5;
+   filter: alpha(opacity=50);
+   position: fixed;
+   right: 39px;
+   top: 30px;
+   width: 22px;
+   z-index: 10003;
+}
+
+.fatihocal-lightbox-wrapper .close:hover 
+{
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.fatihocal-lightbox-wrapper .close .cw, 
+.fatihocal-lightbox-wrapper .close .ccw
+{
+   background-color: #fff;
+   border-radius: 3px;
+   height: 6px;
+   position: absolute;
+   left: -4px;
+   top: 8px;
+   width: 30px;
+}
+
+.fatihocal-lightbox-wrapper .cw
+{
+   transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+   /* Opera */
+    -moz-transform: rotate(45deg);
+/* Firefox */}
+
+.fatihocal-lightbox-wrapper .ccw
+{
+   transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+   /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+   /* Opera */
+    -moz-transform: rotate(-45deg);
+/* Firefox */}
+
+.fatihocal-lightbox-wrapper .close-alt, 
+.fatihocal-lightbox-wrapper .arrow-right-alt, 
+.fatihocal-lightbox-wrapper .arrow-left-alt 
+{
+   color: #fff;
+   display: none;
+   font-size: 2.5em;
+}
+
+.ie8 .fatihocal-lightbox-wrapper .close-alt, 
+.ie8 .fatihocal-lightbox-wrapper .arrow-right-alt, 
+.ie8 .fatihocal-lightbox-wrapper .arrow-left-alt 
+{
+   display: block;
+}
+
+.ie8 .fatihocal-lightbox-wrapper .cw, 
+.ie8 .fatihocal-lightbox-wrapper .ccw 
+{
+   display: none;
+}
+
+.fatihocal-content-layout .fatihocal-content
+{
+   margin:0 auto;
+}
+
+.fatihocal-content-layout .fatihocal-sidebar1
+{
+   background: #292929;
+   background: transparent;
+   -webkit-border-radius:0 4px 4px 0;
+   -moz-border-radius:0 4px 4px 0;
+   border-radius:0 4px 4px 0;
+   border-left:1px dotted #636363;
+   margin:0 auto;
+   width: 225px;
+}
+
+
+.fatihocal-blockheader .t, .fatihocal-vmenublockheader .t {white-space: nowrap;}

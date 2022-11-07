@@ -1,0 +1,137 @@
+/* Created by Artisteer v4.1.0.59782 */
+
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.omerbozalan-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.omerbozalan-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#omerbozalan-header-bg 
+{
+   display: none;
+}
+
+.omerbozalan-hmenu>li, .omerbozalan-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.omerbozalan-hmenu, ul.omerbozalan-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#omerbozalan-hmenu-bg 
+{
+   display: none;
+}
+
+ul.omerbozalan-hmenu>li:first-child {
+   padding-right:1px;
+}
+ul.omerbozalan-hmenu>li{
+   zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='omerbozalan-hmenu-separator');
+}
+ul.omerbozalan-hmenu>li>span.omerbozalan-hmenu-separator
+{
+   position:absolute;
+   display: block;
+   top:0;
+   left:  -1px;
+   width: 1px;
+   height: 33px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.omerbozalan-hmenu>li:first-child>span.omerbozalan-hmenu-separator
+{
+   display:none;
+}
+
+ul.omerbozalan-hmenu ul, .desktop-nav ul.omerbozalan-hmenu>li.ext:hover>a{
+   background-color: #787878 !important;
+}
+
+.omerbozalan-content-layout, .omerbozalan-content-layout-row, .omerbozalan-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.omerbozalan-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.omerbozalan-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.omerbozalan-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.omerbozalan-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.omerbozalan-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.omerbozalan-sidebar1 
+{
+   width: auto;
+   float:none;
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='omerbozalan-sidebar1-bg' + (className.indexOf('omerbozalan-sidebar1-fix') == -1 ? '' : ' omerbozalan-sidebar1-bg-fix' ));
+}
+
+.omerbozalan-sidebar1-bg 
+{
+   border-left:1px dotted #636363;
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   right:  0;
+   bottom:0;
+   top:0;
+   width: 225px;
+   overflow:hidden;
+   display:block;
+}
+

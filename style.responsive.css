@@ -1,0 +1,378 @@
+
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive .fatihocal-content-layout img,
+.responsive .fatihocal-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .fatihocal-content-layout img 
+{
+   float: none !important;
+}
+    
+.responsive .fatihocal-content-layout .fatihocal-sidebar0, 
+.responsive .fatihocal-content-layout .fatihocal-sidebar1, 
+.responsive .fatihocal-content-layout .fatihocal-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .fatihocal-content-layout, 
+.responsive .fatihocal-content-layout-row, 
+.responsive .fatihocal-layout-cell 
+{
+   display: block;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto;
+}
+
+.responsive.responsive-tablet .fatihocal-vmenublock,
+.responsive.responsive-tablet .fatihocal-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .fatihocal-responsive-embed 
+{
+   position: relative;
+   padding-bottom: 56.25%;
+
+	height: 0;
+}
+
+.responsive .fatihocal-responsive-embed iframe,
+.responsive .fatihocal-responsive-embed object,
+.responsive .fatihocal-responsive-embed embed
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.responsive .fatihocal-header 
+{
+   width: auto;
+   height: auto;
+   min-height: 100px;
+   min-width: 1%;
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+.responsive .fatihocal-header .fatihocal-headline, 
+.responsive .fatihocal-header .fatihocal-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+}
+    
+.responsive .fatihocal-header .fatihocal-headline a, 
+.responsive .fatihocal-header .fatihocal-slogan 
+{
+   white-space: normal !important;
+}
+    
+.responsive .fatihocal-header .fatihocal-shapes .fatihocal-textblock 
+{
+   padding: 2% !important;
+   margin: 2% !important;
+   line-height: normal;
+   background-image: none;
+   background-color: rgba(127, 127, 127, 0.7);
+   color: #eee !important;
+   display: none;
+   top: auto;
+   left: auto;
+   width: auto;
+   height: auto;
+}
+
+.responsive .fatihocal-header .fatihocal-shapes .fatihocal-textblock *,
+.responsive .fatihocal-header .fatihocal-shapes .fatihocal-textblock a:hover,
+.responsive .fatihocal-header .fatihocal-shapes .fatihocal-textblock a:visited,
+.responsive .fatihocal-header .fatihocal-shapes .fatihocal-textblock a:link 
+{
+   color: #eee !important;
+}
+    
+.responsive .fatihocal-header .fatihocal-shapes .fatihocal-textblock>div 
+{
+   display: none;
+   top: auto;
+   left: auto;
+   width: auto;
+   height: auto;
+   padding: 0 !important;
+}
+
+.responsive .fatihocal-header .fatihocal-shapes,
+.responsive .fatihocal-header .fatihocal-shapes *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.responsive .fatihocal-header #fatihocal-flash-area,
+.responsive .fatihocal-header .fatihocal-shapes>*
+{
+   display: none;
+}
+
+.responsive #fatihocal-header-bg 
+{
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+
+.responsive .fatihocal-shapes~.fatihocal-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+
+.responsive nav.fatihocal-nav,
+.responsive .fatihocal-nav-inner
+{
+   width: auto !important;
+   position: relative !important;
+   top: auto !important;
+   left: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   margin-top: 0;
+   margin-bottom: 0;
+   min-width: 0;
+}
+
+.responsive nav.fatihocal-nav
+{
+   min-width: 1%;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+.responsive .responsive-nav 
+{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+
+.responsive .responsive-nav ul.fatihocal-hmenu 
+{
+   display: block;
+   float: none;
+   text-align: center;
+}
+
+
+.responsive .responsive-nav ul.fatihocal-hmenu li
+{
+   float: none;
+}
+  
+
+.responsive .responsive-nav ul.fatihocal-hmenu>li:first-child, 
+.responsive .responsive-nav ul.fatihocal-hmenu>li:last-child, 
+.responsive .responsive-nav ul.fatihocal-hmenu>li
+{
+   margin-left: 0;
+   margin-right: 0;
+}
+ 
+
+.responsive .responsive-nav ul.fatihocal-hmenu>li:before
+{
+   display: none;
+}
+
+
+.responsive .responsive-nav ul.fatihocal-hmenu a
+{
+   margin-top: 1px !important;
+   margin-bottom: 1px !important;
+   text-align: center;
+   height: auto;
+   white-space: normal;
+}
+
+.responsive .responsive-nav ul.fatihocal-hmenu>li:first-child>a
+{
+   margin-top: 0 !important;
+}
+
+.responsive .responsive-nav ul.fatihocal-hmenu>li:last-child>a
+{
+   margin-bottom: 0 !important;
+}
+
+
+.responsive .responsive-nav .ext, 
+.responsive .responsive-nav ul.fatihocal-hmenu>li>ul, 
+.responsive .responsive-nav ul.fatihocal-hmenu>li>ul>li
+{
+   width: auto !important;
+}
+
+
+.responsive .responsive-nav ul.fatihocal-hmenu ul
+{
+   left: auto !important;
+   right: auto !important;
+   top: auto !important;
+   bottom: auto !important;
+   display: none !important;
+   position: relative !important;
+   visibility: visible !important;
+}
+
+.responsive .responsive-nav ul.fatihocal-hmenu>li>ul>li:first-child:after 
+{
+   display: none;
+}
+.responsive .responsive-nav ul.fatihocal-hmenu ul a
+{
+   padding-left: 4% !important;
+}
+.responsive .responsive-nav ul.fatihocal-hmenu ul ul a
+{
+   padding-left: 6% !important;
+}
+.responsive .responsive-nav ul.fatihocal-hmenu ul ul ul a
+{
+   padding-left: 8% !important;
+}
+.responsive .responsive-nav ul.fatihocal-hmenu ul ul ul ul a
+{
+   padding-left: 10% !important;
+}
+.responsive .responsive-nav ul.fatihocal-hmenu ul ul ul ul ul a
+{
+   padding-left: 12% !important;
+}
+  
+.responsive .responsive-nav ul.fatihocal-hmenu>li>ul
+{
+   padding: 5px;
+}
+  
+.responsive .responsive-nav ul.fatihocal-hmenu>li>ul:before
+{
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.responsive .fatihocal-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+   margin-top: 1% !important;
+}
+
+#fatihocal-resp {
+   display: none;
+}
+
+@media all and (max-width: 899px)
+{
+    #fatihocal-resp, #fatihocal-resp-t { display: block; }
+    #fatihocal-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #fatihocal-resp, #fatihocal-resp-m { display: block; }
+    #fatihocal-resp-t { display: none; }
+}
+
+.responsive .fatihocal-content-layout, 
+.responsive .fatihocal-content-layout-row, 
+.responsive .fatihocal-layout-cell 
+{
+   display: block;
+}
+
+.responsive .fatihocal-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+   border-right-width: 0 !important;
+   border-left-width: 0 !important;
+   border-radius: 0 !important;
+}
+
+.responsive .fatihocal-content-layout:after, 
+.responsive .fatihocal-content-layout-row:after, 
+.responsive .fatihocal-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive .ffatihocal-atihocal-post
+{
+   border-radius: 0;
+}
+
+.responsive .fatihocal-footer-inner
+{
+   width: auto;
+   padding: 2% !important;
+}
+.responsive .footer
+{
+   margin-top: 1%;
+}
+
+.responsive .responsive-tablet-layout-cell 
+{
+   width: 50% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+

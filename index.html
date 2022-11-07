@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head>
+    <meta charset="utf-8">
+    <title>Anasayfa</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <link rel="stylesheet" href="style.css" media="screen">
+
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rosarivo|Goudy+Bookletter+1911&amp;subset=latin">
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".fatihocal-slidecontainerfatih_").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".fatihocal-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".fatihocal-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".fatihocal-slidenavigatorfatih_"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>
+.fatihocal-content .fatihocal-postcontent-0 .layout-item-0 { border-top-width:1px;border-top-style:solid;border-top-color:#636363;margin-top: 5px;margin-bottom: 5px;  }
+.fatihocal-content .fatihocal-postcontent-0 .layout-item-1 { padding-right: 10px;padding-left: 10px;  }
+.fatihocal-content .fatihocal-postcontent-0 .layout-item-2 { border-right-style:solid;border-right-width:1px;border-right-color:#636363; padding-right: 10px;padding-left: 10px;  }
+.ie7 .fatihocal-post .fatihocal-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .fatihocal-post .fatihocal-layout-cell {border:none !important; padding:0 !important; }
+
+.fatihocal-slidecontainerfatih_ {
+    position: relative;
+        width: 621px;
+    height: 388px;
+        }
+
+.fatihocal-slidecontainerfatih_ .fatihocal-slide-item
+{
+
+}
+
+
+
+.fatihocal-slidecontainerfatih_ .fatihocal-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.fatihocal-slidecontainerfatih_ .active, .fatihocal-slidecontainerfatih_ .next, .fatihocal-slidecontainerfatih_ .prev {
+    display: block;
+}
+
+.fatihocal-slidecontainerfatih_ .active {
+    opacity: 1;
+}
+
+.fatihocal-slidecontainerfatih_ .next, .fatihocal-slidecontainerfatih_ .prev {
+    width: 100%;
+}
+
+.fatihocal-slidecontainerfatih_ .next.forward, .fatihocal-slidecontainerfatih_ .prev.back {
+    opacity: 1;
+}
+
+.fatihocal-slidecontainerfatih_ .active.forward {
+    opacity: 0;
+}
+
+.fatihocal-slidecontainerfatih_ .active.back {
+    opacity: 0;
+}
+
+
+.fatihocal-slidefatih_1 {
+    background-image:  url('images/slidefatih_1.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.fatihocal-slidefatih_2 {
+    background-image:  url('images/slidefatih_2.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.fatihocal-slidefatih_3 {
+    background-image:  url('images/slidefatih_3.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.fatihocal-slidefatih_4 {
+    background-image:  url('images/slidefatih_4.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.fatihocal-slidefatih_5 {
+    background-image:  url('images/slidefatih_5.png');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+
+.fatihocal-slidenavigatorfatih_ {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 0px;
+  left: 44.2%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.fatihocal-slidenavigatorfatih_
+{
+background: #8C8C8C;background: transparent;
+-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.fatihocal-slidenavigatorfatih_ > a
+{
+background: #4F4F4F;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+
+
+margin:0 10px 0 0;
+
+width: 7px;
+
+height: 7px;
+}
+.fatihocal-slidenavigatorfatih_ > a.active
+{
+background: #EB002B;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+
+
+margin:0 10px 0 0;
+
+width: 7px;
+
+height: 7px;
+}
+.fatihocal-slidenavigatorfatih_ > a:hover
+{
+background: #D0290B;background: linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;background: -webkit-linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;background: -moz-linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;background: -o-linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;background: -ms-linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;background: linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;-svg-background: linear-gradient(top, #B8240A 0, #DF2B0C 40%, #E42C0C 50%, #E42C0C 100%) no-repeat;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+
+
+margin:0 10px 0 0;
+
+width: 7px;
+
+height: 7px;
+}
+
+.fatihocal-slidenavigatorfatih_1 {  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 0px;
+  left: 44.2%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+}
+.fatihocal-slidenavigatorfatih_1 {background: #8C8C8C;background: transparent;
+-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;
+
+
+padding:7px;
+}
+</style></head>
+<body>
+<div id="fatihocal-main">
+  <div class="fatihocal-sheet clearfix">
+    <div class="fatihocal-layout-wrapper clearfix">
+      <div class="fatihocal-content-layout">
+        <div class="fatihocal-content-layout-row">
+          <div class="fatihocal-layout-cell fatihocal-sidebar1 clearfix"><div class="fatihocal-block clearfix">
+            <div class="fatihocal-blockcontent"><form action="#" method="post" name="login" id="form-login">
+              <fieldset class="input" style="border: 0 none;">
+                <div id="fatihocal-main2">
+                  <header class="fatihocal-header clearfix">
+                    <div class="fatihocal-shapes"> 
+                      <div class="fatihocal-fatih3" data-left="0%"></div>
+                   </div>
+                    <h1 class="fatihocal-headline" data-left="86.05%"> <a href="index.html">fatihocal</a> </h1>
+                    <h2 class="fatihocal-slogan" data-left="88.05%">.COM</h2>
+                  </header>
+                  <nav class="fatihocal-nav clearfix">
+                    <ul class="fatihocal-hmenu">
+                      <li><a href="index.html" class="active">Anasayfa</a></li>
+                      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                      <li><a href="calismalar.html">Çalışmalar</a></li>
+                      <li><a href="referanslar.html">Referanslar</a></li>
+                      <li><a href="galeri.html">Galeri</a></li>
+                      <li><a href="iletisim.html">İletişim</a></li>
+                          <li><a href="form.html">Üyelik Formu</a></li>
+                   
+                    </ul>
+                  </nav>
+                  <div class="fatihocal-sheet clearfix">
+                    <div class="fatihocal-layout-wrapper clearfix">
+                      <div class="fatihocal-content-layout">
+                        <div class="fatihocal-content-layout-row">
+                          <div class="fatihocal-layout-cell fatihocal-content clearfix">
+                            <article class="fatihocal-post fatihocal-article">
+                              <h2 class="fatihocal-postheader">Anasayfa</h2>
+                              <div class="fatihocal-postcontent fatihocal-postcontent-0 clearfix">
+                                <div class="fatihocal-content-layout">
+                                  <div class="fatihocal-content-layout-row">
+                                    <div class="fatihocal-layout-cell layout-item-1" style="width: 100%" >
+                                      <div id="fatih_" style="position: relative; display: inline-block; z-index: 0;   " class="fatihocal-collage">
+                                        <div class="fatihocal-slider fatihocal-slidecontainerfatih_" data-width="1000" data-height="1000">
+                                          <div class="fatihocal-slider-inner">
+                                            <div class="fatihocal-slide-item fatihocal-slidefatih_1"></div>
+                                            <div class="fatihocal-slide-item fatihocal-slidefatih_2"></div>
+                                            <div class="fatihocal-slide-item fatihocal-slidefatih_3"></div>
+                                            <div class="fatihocal-slide-item fatihocal-slidefatih_4"></div>
+                                            <div class="fatihocal-slide-item fatihocal-slidefatih_5"></div>
+                                          </div>
+                                        </div>
+                                        <div class="fatihocal-slidenavigator fatihocal-slidenavigatorfatih_" data-left="44.2"> <a href="#" class="fatihocal-slidenavigatoritem"></a><a href="#" class="fatihocal-slidenavigatoritem"></a><a href="#" class="fatihocal-slidenavigatoritem"></a><a href="#" class="fatihocal-slidenavigatoritem"></a> </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="fatihocal-content-layout-br layout-item-0"></div>
+                                <div class="fatihocal-content-layout">
+                                  <div class="fatihocal-content-layout-row">
+                                    <div class="fatihocal-layout-cell layout-item-2" style="width: 33%" >
+                                      <h3>HTML-CSS</h3>
+                                      <p>HTML (Hyper Text Markup Language) internet üzerinde web sayfası oluşturmak için kullanılan bir betik dilidir. HTML dosyalarının aktarımı için HTTP (Hyper Text Transfer Protocol) kullanılır. CSS bir kısaltmadır. "Cascading Style Sheets" kelimesinin baş harflerinden oluşur. Dilimizdeki anlamı: Basamaklı Stil Sayfası.
+                                        
+                                        Stil dosyalarımızın uzantısı *.css dir. CSS Dosyası birçok stil barındırabilir.</p>
+                                    </div>
+                                    <div class="fatihocal-layout-cell layout-item-2" style="width: 34%" >
+                                      <h3>JAVASCRİPT</h3>
+                                      <p>JavaScript yaygın olarak web tarayıcılarında kullanılmakta olan bir betik dilidir. JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır. JavaScript, Node.js gibi platformlar sayesinde sunucu tarafında da yaygın olarak kullanılmaktadır. </p>
+                                    </div>
+                                    <div class="fatihocal-layout-cell layout-item-1" style="width: 33%" >
+                                      <h3>PHP</h3>
+                                      <p>PHP Web Tabanlı, nesne yönelimli bir programlama dilidir. Eskiden Personal Home Page (PHP) yani ‘Kişisel Anasayfa’ iken şimdilerde PHP: Hypertext Preprocessor olarak kullanıma devam edilmektedir. PHP, dinamik, kendi kendine yönetilebilir web siteleri yapılmasını sağlar..</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </article>
+                          </div>
+                          <div class="fatihocal-layout-cell fatihocal-sidebar1 clearfix">
+                            <div class="fatihocal-block clearfix">
+                              <div class="fatihocal-blockheader">
+                                <h3 class="t">Ara</h3>
+                              </div>
+                              <div class="fatihocal-blockcontent">
+                                <div>
+                                  <input type="text" value="" name="s" />
+                                  <input type="submit" value="Search" name="search" class="fatihocal-search-button" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="fatihocal-block clearfix">
+                              <div class="fatihocal-blockheader">
+                                <h3 class="t">Giriş</h3>
+                              </div>
+                              <div class="fatihocal-blockcontent">
+                                <fieldset class="input" style="border: 0 none;">
+                                  <p id="form-login-username">
+                                    <label for="modlgn_username">Kullanıcı Adı</label>
+                                    <br />
+                                    <input id="modlgn_username" type="text" name="username" class="inputbox" alt="username" style="width:100%" />
+                                  </p>
+                                  <p id="form-login-password">
+                                    <label for="modlgn_passwd">Şifre</label>
+                                    <br />
+                                    <input id="modlgn_passwd" type="password" name="passwd" class="inputbox" size="18" alt="password" style="width:100%" />
+                                  </p>
+                                  <p id="form-login-remember">
+                                    <label class="fatihocal-checkbox">
+                                      <input type="checkbox" id="modlgn_remember" name="remember" value="yes" alt="Remember Me" />
+                                      Beni Hatırla </label>
+                                  </p>
+                                  <input type="submit" value="Giriş" name="Submit" class="fatihocal-button" />
+                                </fieldset>
+                                <ul>
+                           
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="fatihocal-block clearfix">
+                              <div class="fatihocal-blockheader">
+                                              </div>
+                </div>
+            </div>
+    </div>
+                                
+                  <footer class="fatihocal-footer clearfix">
+                    <div class="fatihocal-footer-inner">
+                      <div class="fatihocal-content-layout">
+                        <div class="fatihocal-content-layout-row">
+                          <div class="fatihocal-layout-cell layout-item-0" style="width: 100%">
+                            <p>Tüm hakları saklıdır.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="fatihocal-page-footer"> <span id="fatihocal-footnote-links">Designed by <a href="https://plus.google.com/u/0/107684468739440645157?tab=mX" target="_blank"> FATİH ÖÇAL </a>.</span> </p>
+                    </div>
+                  </footer>
+                </div>
+              </fieldset>
+              </form>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</body></html>
